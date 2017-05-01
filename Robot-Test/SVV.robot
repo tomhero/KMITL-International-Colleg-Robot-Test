@@ -1,11 +1,18 @@
 *** Settings ***
 Library           Selenium2Library
+Library           AllureReportLibrary    ./report
 Test Setup        Start browser
 Test Teardown     Close All Browsers
 
+*** Variables ***
+${HOMEPAGE}    http://www.ic.kmitl.ac.th/
+${BROWSER}    chrome
+${FIVESECOND}    5.0
+${TENSECOND}    10.0
+
 *** Keywords ***
 Start browser
-    Open Browser    http://www.ic.kmitl.ac.th/
+    Open Browser    ${HOMEPAGE}    ${BROWSER}
     Maximize Browser Window
     Skip Start Page
 Skip Start Page

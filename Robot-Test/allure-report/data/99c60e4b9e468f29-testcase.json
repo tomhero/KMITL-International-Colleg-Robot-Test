@@ -1,0 +1,191 @@
+{
+  "uid" : "99c60e4b9e468f29",
+  "name" : "ทดสอบหน้ารายชื่ออาจารย์",
+  "title" : "ทดสอบหน้ารายชื่ออาจารย์",
+  "time" : {
+    "start" : 1493619840751,
+    "stop" : 1493619856878,
+    "duration" : 16127
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 10
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "ทดสอบหน้ารายชื่ออาจารย์",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "beab11ff9a40107b",
+    "name" : "SVV",
+    "title" : "SVV"
+  },
+  "steps" : [ {
+    "name" : "Selenium2Library.Open Browser",
+    "title" : "Selenium2Library.Open Browser",
+    "time" : {
+      "start" : 1493619840752,
+      "stop" : 1493619846995,
+      "duration" : 6243
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Selenium2Library.Maximize Browser Window",
+    "title" : "Selenium2Library.Maximize Browser Window",
+    "time" : {
+      "start" : 1493619846996,
+      "stop" : 1493619848176,
+      "duration" : 1180
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Skip Start Page",
+    "title" : "Skip Start Page",
+    "time" : {
+      "start" : 1493619848176,
+      "stop" : 1493619851104,
+      "duration" : 2928
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 2
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "Selenium2Library.Click Element",
+      "title" : "Selenium2Library.Click Element",
+      "time" : {
+        "start" : 1493619848177,
+        "stop" : 1493619851037,
+        "duration" : 2860
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "Selenium2Library.Wait Until Element Is Visible",
+      "title" : "Selenium2Library.Wait Until Element Is Visible",
+      "time" : {
+        "start" : 1493619851038,
+        "stop" : 1493619851104,
+        "duration" : 66
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Selenium2Library.Mouse Over",
+    "title" : "Selenium2Library.Mouse Over",
+    "time" : {
+      "start" : 1493619851106,
+      "stop" : 1493619851168,
+      "duration" : 62
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Selenium2Library.Wait Until Element Is Visible",
+    "title" : "Selenium2Library.Wait Until Element Is Visible",
+    "time" : {
+      "start" : 1493619851170,
+      "stop" : 1493619851248,
+      "duration" : 78
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Selenium2Library.Click Element",
+    "title" : "Selenium2Library.Click Element",
+    "time" : {
+      "start" : 1493619851251,
+      "stop" : 1493619853534,
+      "duration" : 2283
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Selenium2Library.Wait Until Element Is Visible",
+    "title" : "Selenium2Library.Wait Until Element Is Visible",
+    "time" : {
+      "start" : 1493619853536,
+      "stop" : 1493619853600,
+      "duration" : 64
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Selenium2Library.Page Should Contain",
+    "title" : "Selenium2Library.Page Should Contain",
+    "time" : {
+      "start" : 1493619853601,
+      "stop" : 1493619853637,
+      "duration" : 36
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "SVV"
+  }, {
+    "name" : "thread",
+    "value" : "8220"
+  }, {
+    "name" : "suite-title",
+    "value" : "SVV"
+  } ],
+  "parameters" : [ ]
+}

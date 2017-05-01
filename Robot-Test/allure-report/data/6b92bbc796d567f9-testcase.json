@@ -1,0 +1,296 @@
+{
+  "uid" : "6b92bbc796d567f9",
+  "name" : "ทดสอบล็อคอิน Moodle ด้วย Guest",
+  "title" : "ทดสอบล็อคอิน moodle ด้วย guest",
+  "time" : {
+    "start" : 1493619890699,
+    "stop" : 1493619909984,
+    "duration" : 19285
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 17
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "ทดสอบล็อคอิน Moodle ด้วย Guest",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "beab11ff9a40107b",
+    "name" : "SVV",
+    "title" : "SVV"
+  },
+  "steps" : [ {
+    "name" : "Selenium2Library.Open Browser",
+    "title" : "Selenium2Library.Open Browser",
+    "time" : {
+      "start" : 1493619890702,
+      "stop" : 1493619895989,
+      "duration" : 5287
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Selenium2Library.Maximize Browser Window",
+    "title" : "Selenium2Library.Maximize Browser Window",
+    "time" : {
+      "start" : 1493619895989,
+      "stop" : 1493619897166,
+      "duration" : 1177
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Skip Start Page",
+    "title" : "Skip Start Page",
+    "time" : {
+      "start" : 1493619897166,
+      "stop" : 1493619900549,
+      "duration" : 3383
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 2
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "Selenium2Library.Click Element",
+      "title" : "Selenium2Library.Click Element",
+      "time" : {
+        "start" : 1493619897167,
+        "stop" : 1493619900234,
+        "duration" : 3067
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "Selenium2Library.Wait Until Element Is Visible",
+      "title" : "Selenium2Library.Wait Until Element Is Visible",
+      "time" : {
+        "start" : 1493619900235,
+        "stop" : 1493619900549,
+        "duration" : 314
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Open Moodle",
+    "title" : "Open Moodle",
+    "time" : {
+      "start" : 1493619900564,
+      "stop" : 1493619902879,
+      "duration" : 2315
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 3
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "Selenium2Library.Click Button",
+      "title" : "Selenium2Library.Click Button",
+      "time" : {
+        "start" : 1493619900565,
+        "stop" : 1493619900850,
+        "duration" : 285
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "Selenium2Library.Wait Until Element Is Visible",
+      "title" : "Selenium2Library.Wait Until Element Is Visible",
+      "time" : {
+        "start" : 1493619900850,
+        "stop" : 1493619900944,
+        "duration" : 94
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "Selenium2Library.Click Link",
+      "title" : "Selenium2Library.Click Link",
+      "time" : {
+        "start" : 1493619900945,
+        "stop" : 1493619902878,
+        "duration" : 1933
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Selenium2Library.Wait Until Element Is Visible",
+    "title" : "Selenium2Library.Wait Until Element Is Visible",
+    "time" : {
+      "start" : 1493619902893,
+      "stop" : 1493619903016,
+      "duration" : 123
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Selenium2Library.Click Element",
+    "title" : "Selenium2Library.Click Element",
+    "time" : {
+      "start" : 1493619903021,
+      "stop" : 1493619904157,
+      "duration" : 1136
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Selenium2Library.Wait Until Element Is Visible",
+    "title" : "Selenium2Library.Wait Until Element Is Visible",
+    "time" : {
+      "start" : 1493619904163,
+      "stop" : 1493619904292,
+      "duration" : 129
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Selenium2Library.Input Text",
+    "title" : "Selenium2Library.Input Text",
+    "time" : {
+      "start" : 1493619904297,
+      "stop" : 1493619904458,
+      "duration" : 161
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Selenium2Library.Input Password",
+    "title" : "Selenium2Library.Input Password",
+    "time" : {
+      "start" : 1493619904462,
+      "stop" : 1493619904723,
+      "duration" : 261
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Selenium2Library.Click Button",
+    "title" : "Selenium2Library.Click Button",
+    "time" : {
+      "start" : 1493619904728,
+      "stop" : 1493619906475,
+      "duration" : 1747
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Selenium2Library.Wait Until Element Is Visible",
+    "title" : "Selenium2Library.Wait Until Element Is Visible",
+    "time" : {
+      "start" : 1493619906477,
+      "stop" : 1493619906669,
+      "duration" : 192
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Selenium2Library.Element Should Contain",
+    "title" : "Selenium2Library.Element Should Contain",
+    "time" : {
+      "start" : 1493619906672,
+      "stop" : 1493619906786,
+      "duration" : 114
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "SVV"
+  }, {
+    "name" : "thread",
+    "value" : "8220"
+  }, {
+    "name" : "suite-title",
+    "value" : "SVV"
+  } ],
+  "parameters" : [ ]
+}
