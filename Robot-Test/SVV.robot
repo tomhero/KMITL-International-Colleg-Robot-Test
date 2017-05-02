@@ -84,7 +84,7 @@ Restart Test
     Click Element    dom=document.getElementsByTagName('li')[43]
     Sleep    ${THREESECOND}
     Click Link    dom=document.links[50]
-    Wait Until Page Contains    SOFTWARE ENGINEERING    ${FIVESECOND}
+    Wait Until Page Contains    LOGISTICS AND SUPPLY CHAIN MANAGEMENT    ${FIVESECOND}
     Page Should Not Contain    not found
 
 ทดสอบปุ่ม More Info หน้าแรกปุ่มสาม
@@ -93,7 +93,7 @@ Restart Test
     Click Element    dom=document.getElementsByTagName('li')[44]
     Sleep    ${THREESECOND}
     Click Link    dom=document.links[51]
-    Wait Until Page Contains    SOFTWARE ENGINEERING    ${FIVESECOND}
+    Wait Until Page Contains    ENGINEERING AND TECHNOLOGY MANAGEMENT    ${FIVESECOND}
     Page Should Not Contain    not found
 
 ทดสอบปุ่ม More Info หน้าแรกปุ่มสี่
@@ -102,7 +102,7 @@ Restart Test
     Click Element    dom=document.getElementsByTagName('li')[45]
     Sleep    ${THREESECOND}
     Click Link    dom=document.links[52]
-    Wait Until Page Contains    SOFTWARE ENGINEERING    ${FIVESECOND}
+    Wait Until Page Contains    AUTOMOTIVE ENGINEERING    ${FIVESECOND}
     Page Should Not Contain    not found
 
 ทดสอบปุ่ม More Info หน้าแรกปุ่มห้า
@@ -111,6 +111,21 @@ Restart Test
     Click Element    dom=document.getElementsByTagName('li')[46]
     Sleep    ${THREESECOND}
     Click Link    dom=document.links[53]
-    Wait Until Page Contains    SOFTWARE ENGINEERING    ${FIVESECOND}
+    Wait Until Page Contains    COMPUTING IN ENGINEERING SYSTEMS    ${FIVESECOND}
     Page Should Not Contain    not found
+
+ทดสอบเข้าหน้า apply ของหลักสูตร SOFTWARE ENGINEERING
+    Restart Test
+    Wait Until Page Contains    More Info
+    Mouse Over    xpath=//*[text()='Programs']
+    Wait Until Element Is Visible    xpath=//span[text()='Software Engineering']
+    Click Element    xpath=//span[text()='Software Engineering']
+    Wait Until Page Contains    Software Engineering
+    Click Link    xpath=//*[@id="tab"]/li[4]/a
+    Sleep    ${THREESECOND}
+    Mouse Over    xpath=//*[@id="tab-admission"]/p[7]/a
+    Mouse Down    xpath=//*[@id="tab-admission"]/p[7]/a
+    Mouse Up    xpath=//*[@id="tab-admission"]/p[7]/a
+    Select Window    url=http://www.ic.kmitl.ac.th/apply/
+    Wait Until Page Contains    Online Application
     [Teardown]    Close Browser
