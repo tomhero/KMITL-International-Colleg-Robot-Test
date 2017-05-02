@@ -1,0 +1,116 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1493738982873" stop="1493739000249">
+  <name>SVV</name>
+  <title>SVV</title>
+  <labels/>
+  <test-cases>
+    <test-case severity="None" start="1493738982877" status="failed" stop="1493739000243">
+      <description>ทดสอบเข้าหน้า apply ของหลักสูตร SOFTWARE ENGINEERING</description>
+      <name>ทดสอบเข้าหน้า apply ของหลักสูตร SOFTWARE ENGINEERING</name>
+      <failure>
+        <message>ValueError: Element locator 'link=http://www.ic.kmitl.ac.th/apply' did not match any elements.</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="thread" value="27868"/>
+      </labels>
+      <steps>
+        <step start="1493738982878" status="passed" stop="1493738992819">
+          <name>Start Browser</name>
+          <title>Start Browser</title>
+          <attachments/>
+          <steps>
+            <step start="1493738982879" status="passed" stop="1493738988589">
+              <name>Selenium2Library.Open Browser</name>
+              <title>Selenium2Library.Open Browser</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1493738988590" status="passed" stop="1493738989836">
+              <name>Selenium2Library.Maximize Browser Window</name>
+              <title>Selenium2Library.Maximize Browser Window</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1493738989836" status="passed" stop="1493738992818">
+              <name>Skip Start Page</name>
+              <title>Skip Start Page</title>
+              <attachments/>
+              <steps>
+                <step start="1493738989837" status="passed" stop="1493738992730">
+                  <name>Selenium2Library.Click Element</name>
+                  <title>Selenium2Library.Click Element</title>
+                  <attachments/>
+                  <steps/>
+                </step>
+                <step start="1493738992731" status="passed" stop="1493738992818">
+                  <name>Selenium2Library.Wait Until Element Is Visible</name>
+                  <title>Selenium2Library.Wait Until Element Is Visible</title>
+                  <attachments/>
+                  <steps/>
+                </step>
+              </steps>
+            </step>
+          </steps>
+        </step>
+        <step start="1493738992821" status="passed" stop="1493738992861">
+          <name>Selenium2Library.Wait Until Page Contains</name>
+          <title>Selenium2Library.Wait Until Page Contains</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493738992863" status="passed" stop="1493738992955">
+          <name>Selenium2Library.Mouse Over</name>
+          <title>Selenium2Library.Mouse Over</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493738992958" status="passed" stop="1493738993054">
+          <name>Selenium2Library.Wait Until Element Is Visible</name>
+          <title>Selenium2Library.Wait Until Element Is Visible</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493738993057" status="passed" stop="1493738996243">
+          <name>Selenium2Library.Click Element</name>
+          <title>Selenium2Library.Click Element</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493738996245" status="passed" stop="1493738996368">
+          <name>Selenium2Library.Wait Until Page Contains</name>
+          <title>Selenium2Library.Wait Until Page Contains</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493738996369" status="passed" stop="1493738996809">
+          <name>Selenium2Library.Click Link</name>
+          <title>Selenium2Library.Click Link</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493738996819" status="passed" stop="1493738999820">
+          <name>BuiltIn.Sleep</name>
+          <title>BuiltIn.Sleep</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493738999822" status="failed" stop="1493739000238">
+          <name>Selenium2Library.Click Link</name>
+          <title>Selenium2Library.Click Link</title>
+          <attachments/>
+          <steps>
+            <step start="1493738999982" status="passed" stop="1493739000235">
+              <name>Selenium2Library.Capture Page Screenshot</name>
+              <title>Selenium2Library.Capture Page Screenshot</title>
+              <attachments>
+                <attachment source="167f97f1-8673-48ad-9139-c36346ab3437-attachment.png" title="selenium-screenshot-1.png" type="AttachmentType.PNG"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

@@ -1,0 +1,41 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1493738857121" stop="1493738857199">
+  <name>SVV</name>
+  <title>SVV</title>
+  <labels/>
+  <test-cases>
+    <test-case severity="None" start="1493738857129" status="failed" stop="1493738857186">
+      <description>ทดสอบเข้าหน้า apply ของหลักสูตร SOFTWARE ENGINEERING</description>
+      <name>ทดสอบเข้าหน้า apply ของหลักสูตร SOFTWARE ENGINEERING</name>
+      <failure>
+        <message>No browser is open</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="thread" value="3144"/>
+      </labels>
+      <steps>
+        <step start="1493738857130" status="failed" stop="1493738857177">
+          <name>Restart Test</name>
+          <title>Restart Test</title>
+          <attachments/>
+          <steps>
+            <step start="1493738857131" status="failed" stop="1493738857175">
+              <name>Selenium2Library.Go To</name>
+              <title>Selenium2Library.Go To</title>
+              <attachments/>
+              <steps>
+                <step start="1493738857133" status="failed" stop="1493738857144">
+                  <name>Selenium2Library.Capture Page Screenshot</name>
+                  <title>Selenium2Library.Capture Page Screenshot</title>
+                  <attachments/>
+                  <steps/>
+                </step>
+              </steps>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

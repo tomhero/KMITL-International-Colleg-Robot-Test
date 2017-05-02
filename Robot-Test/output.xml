@@ -1,0 +1,965 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20170502 22:39:53.503" generator="Robot 3.0.2 (Python 2.7.13 on win32)">
+<suite source="D:\SVV\KMITL-International-Colleg-Robot-Test\Robot-Test\SVV.robot" id="s1" name="SVV">
+<test id="s1-t1" name="ทดสอบหน้ารายชื่ออาจารย์">
+<kw name="Start Browser">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>${HOMEPAGE}</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20170502 22:39:54.024" level="INFO">Opening browser 'chrome' to base url 'http://www.ic.kmitl.ac.th/'</msg>
+<status status="PASS" endtime="20170502 22:40:00.160" starttime="20170502 22:39:54.023"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20170502 22:40:01.552" starttime="20170502 22:40:00.161"></status>
+</kw>
+<kw name="Skip Start Page">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//img[contains(@src, 'images/r10.jpg')]</arg>
+</arguments>
+<msg timestamp="20170502 22:40:01.555" level="INFO">Clicking element 'xpath=//img[contains(@src, 'images/r10.jpg')]'.</msg>
+<status status="PASS" endtime="20170502 22:40:06.051" starttime="20170502 22:40:01.554"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="Selenium2Library">
+<doc>Waits until element specified with `locator` is visible.</doc>
+<arguments>
+<arg>xpath=//span[text()='People']</arg>
+</arguments>
+<status status="PASS" endtime="20170502 22:40:06.182" starttime="20170502 22:40:06.052"></status>
+</kw>
+<status status="PASS" endtime="20170502 22:40:06.182" starttime="20170502 22:40:01.553"></status>
+</kw>
+<status status="PASS" endtime="20170502 22:40:06.183" starttime="20170502 22:39:54.022"></status>
+</kw>
+<kw name="Mouse Over" library="Selenium2Library">
+<doc>Simulates hovering mouse over the element specified by `locator`.</doc>
+<arguments>
+<arg>xpath=//*[text()='People']</arg>
+</arguments>
+<msg timestamp="20170502 22:40:06.186" level="INFO">Simulating Mouse Over on element 'xpath=//*[text()='People']'</msg>
+<status status="PASS" endtime="20170502 22:40:06.519" starttime="20170502 22:40:06.186"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="Selenium2Library">
+<doc>Waits until element specified with `locator` is visible.</doc>
+<arguments>
+<arg>xpath=//span[text()='Academic Staff']</arg>
+</arguments>
+<status status="PASS" endtime="20170502 22:40:06.730" starttime="20170502 22:40:06.526"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//span[text()='Academic Staff']</arg>
+</arguments>
+<msg timestamp="20170502 22:40:06.735" level="INFO">Clicking element 'xpath=//span[text()='Academic Staff']'.</msg>
+<status status="PASS" endtime="20170502 22:40:09.479" starttime="20170502 22:40:06.734"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="Selenium2Library">
+<doc>Waits until element specified with `locator` is visible.</doc>
+<arguments>
+<arg>xpath=//div[@class='team-photo']</arg>
+</arguments>
+<status status="PASS" endtime="20170502 22:40:09.599" starttime="20170502 22:40:09.481"></status>
+</kw>
+<kw name="Page Should Contain" library="Selenium2Library">
+<doc>Verifies that current page contains `text`.</doc>
+<arguments>
+<arg>Assoc.Prof.Dr. Supat Kittiratsatcha</arg>
+</arguments>
+<msg timestamp="20170502 22:40:09.665" level="INFO">Current page contains text 'Assoc.Prof.Dr. Supat Kittiratsatcha'.</msg>
+<status status="PASS" endtime="20170502 22:40:09.665" starttime="20170502 22:40:09.604"></status>
+</kw>
+<status status="PASS" endtime="20170502 22:40:09.669" critical="yes" starttime="20170502 22:39:54.017"></status>
+</test>
+<test id="s1-t2" name="ทดสอบหน้ารายชื่อเจ้าหน้าที่">
+<kw name="Restart Test">
+<kw name="Go To" library="Selenium2Library">
+<doc>Navigates the active browser instance to the provided URL.</doc>
+<arguments>
+<arg>http://www.ic.kmitl.ac.th/index.php</arg>
+</arguments>
+<msg timestamp="20170502 22:40:09.683" level="INFO">Opening url 'http://www.ic.kmitl.ac.th/index.php'</msg>
+<status status="PASS" endtime="20170502 22:40:11.082" starttime="20170502 22:40:09.683"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="Selenium2Library">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>More Info</arg>
+</arguments>
+<status status="PASS" endtime="20170502 22:40:11.156" starttime="20170502 22:40:11.083"></status>
+</kw>
+<kw name="Page Should Contain" library="Selenium2Library">
+<doc>Verifies that current page contains `text`.</doc>
+<arguments>
+<arg>International College</arg>
+</arguments>
+<msg timestamp="20170502 22:40:11.264" level="INFO">Current page contains text 'International College'.</msg>
+<status status="PASS" endtime="20170502 22:40:11.264" starttime="20170502 22:40:11.157"></status>
+</kw>
+<kw name="Page Should Contain" library="Selenium2Library">
+<doc>Verifies that current page contains `text`.</doc>
+<arguments>
+<arg>King Mongkut's Institute of Technology Ladkrabang</arg>
+</arguments>
+<msg timestamp="20170502 22:40:11.634" level="INFO">Current page contains text 'King Mongkut's Institute of Technology Ladkrabang'.</msg>
+<status status="PASS" endtime="20170502 22:40:11.634" starttime="20170502 22:40:11.265"></status>
+</kw>
+<status status="PASS" endtime="20170502 22:40:11.635" starttime="20170502 22:40:09.682"></status>
+</kw>
+<kw name="Mouse Over" library="Selenium2Library">
+<doc>Simulates hovering mouse over the element specified by `locator`.</doc>
+<arguments>
+<arg>xpath=//*[text()='People']</arg>
+</arguments>
+<msg timestamp="20170502 22:40:11.643" level="INFO">Simulating Mouse Over on element 'xpath=//*[text()='People']'</msg>
+<status status="PASS" endtime="20170502 22:40:11.734" starttime="20170502 22:40:11.642"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="Selenium2Library">
+<doc>Waits until element specified with `locator` is visible.</doc>
+<arguments>
+<arg>xpath=//span[text()='Administrative Staff']</arg>
+</arguments>
+<status status="PASS" endtime="20170502 22:40:11.874" starttime="20170502 22:40:11.740"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//span[text()='Administrative Staff']</arg>
+</arguments>
+<msg timestamp="20170502 22:40:11.881" level="INFO">Clicking element 'xpath=//span[text()='Administrative Staff']'.</msg>
+<status status="PASS" endtime="20170502 22:40:13.762" starttime="20170502 22:40:11.880"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="Selenium2Library">
+<doc>Waits until element specified with `locator` is visible.</doc>
+<arguments>
+<arg>xpath=//div[@class='team-photo']</arg>
+</arguments>
+<status status="PASS" endtime="20170502 22:40:13.846" starttime="20170502 22:40:13.777"></status>
+</kw>
+<kw name="Page Should Contain" library="Selenium2Library">
+<doc>Verifies that current page contains `text`.</doc>
+<arguments>
+<arg>Orathai Phumyoi</arg>
+</arguments>
+<msg timestamp="20170502 22:40:13.903" level="INFO">Current page contains text 'Orathai Phumyoi'.</msg>
+<status status="PASS" endtime="20170502 22:40:13.903" starttime="20170502 22:40:13.849"></status>
+</kw>
+<status status="PASS" endtime="20170502 22:40:13.907" critical="yes" starttime="20170502 22:40:09.677"></status>
+</test>
+<test id="s1-t3" name="ทดสอบล็อคอิน Moodle ด้วย Username Password">
+<kw name="Restart Test">
+<kw name="Go To" library="Selenium2Library">
+<doc>Navigates the active browser instance to the provided URL.</doc>
+<arguments>
+<arg>http://www.ic.kmitl.ac.th/index.php</arg>
+</arguments>
+<msg timestamp="20170502 22:40:13.920" level="INFO">Opening url 'http://www.ic.kmitl.ac.th/index.php'</msg>
+<status status="PASS" endtime="20170502 22:40:14.763" starttime="20170502 22:40:13.919"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="Selenium2Library">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>More Info</arg>
+</arguments>
+<status status="PASS" endtime="20170502 22:40:14.811" starttime="20170502 22:40:14.765"></status>
+</kw>
+<kw name="Page Should Contain" library="Selenium2Library">
+<doc>Verifies that current page contains `text`.</doc>
+<arguments>
+<arg>International College</arg>
+</arguments>
+<msg timestamp="20170502 22:40:14.842" level="INFO">Current page contains text 'International College'.</msg>
+<status status="PASS" endtime="20170502 22:40:14.842" starttime="20170502 22:40:14.812"></status>
+</kw>
+<kw name="Page Should Contain" library="Selenium2Library">
+<doc>Verifies that current page contains `text`.</doc>
+<arguments>
+<arg>King Mongkut's Institute of Technology Ladkrabang</arg>
+</arguments>
+<msg timestamp="20170502 22:40:14.870" level="INFO">Current page contains text 'King Mongkut's Institute of Technology Ladkrabang'.</msg>
+<status status="PASS" endtime="20170502 22:40:14.871" starttime="20170502 22:40:14.843"></status>
+</kw>
+<status status="PASS" endtime="20170502 22:40:14.871" starttime="20170502 22:40:13.918"></status>
+</kw>
+<kw name="Open Moodle">
+<kw name="Click Button" library="Selenium2Library">
+<doc>Clicks a button identified by `locator`.</doc>
+<arguments>
+<arg>Student Links</arg>
+</arguments>
+<msg timestamp="20170502 22:40:14.874" level="INFO">Clicking button 'Student Links'.</msg>
+<status status="PASS" endtime="20170502 22:40:15.158" starttime="20170502 22:40:14.874"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="Selenium2Library">
+<doc>Waits until element specified with `locator` is visible.</doc>
+<arguments>
+<arg>xpath=//a[contains(@href, '/moodle/')]</arg>
+</arguments>
+<status status="PASS" endtime="20170502 22:40:15.402" starttime="20170502 22:40:15.159"></status>
+</kw>
+<kw name="Click Link" library="Selenium2Library">
+<doc>Clicks a link identified by locator.</doc>
+<arguments>
+<arg>xpath=//a[contains(@href, '/moodle/')]</arg>
+</arguments>
+<msg timestamp="20170502 22:40:15.404" level="INFO">Clicking link 'xpath=//a[contains(@href, '/moodle/')]'.</msg>
+<status status="PASS" endtime="20170502 22:40:17.721" starttime="20170502 22:40:15.403"></status>
+</kw>
+<status status="PASS" endtime="20170502 22:40:17.722" starttime="20170502 22:40:14.873"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="Selenium2Library">
+<doc>Waits until element specified with `locator` is visible.</doc>
+<arguments>
+<arg>xpath=//span[@class='login']</arg>
+</arguments>
+<status status="PASS" endtime="20170502 22:40:17.837" starttime="20170502 22:40:17.732"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//a[text()='Log in']</arg>
+</arguments>
+<msg timestamp="20170502 22:40:17.843" level="INFO">Clicking element 'xpath=//a[text()='Log in']'.</msg>
+<status status="PASS" endtime="20170502 22:40:18.762" starttime="20170502 22:40:17.842"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="Selenium2Library">
+<doc>Waits until element specified with `locator` is visible.</doc>
+<arguments>
+<arg>id=username</arg>
+</arguments>
+<status status="PASS" endtime="20170502 22:40:18.874" starttime="20170502 22:40:18.765"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>username</arg>
+<arg>guest</arg>
+</arguments>
+<msg timestamp="20170502 22:40:18.878" level="INFO">Typing text 'guest' into text field 'username'</msg>
+<status status="PASS" endtime="20170502 22:40:19.091" starttime="20170502 22:40:18.877"></status>
+</kw>
+<kw name="Input Password" library="Selenium2Library">
+<doc>Types the given password into text field identified by `locator`.</doc>
+<arguments>
+<arg>password</arg>
+<arg>guest</arg>
+</arguments>
+<msg timestamp="20170502 22:40:19.094" level="INFO">Typing password into text field 'password'</msg>
+<status status="PASS" endtime="20170502 22:40:19.334" starttime="20170502 22:40:19.093"></status>
+</kw>
+<kw name="Click Button" library="Selenium2Library">
+<doc>Clicks a button identified by `locator`.</doc>
+<arguments>
+<arg>Log in</arg>
+</arguments>
+<msg timestamp="20170502 22:40:19.341" level="INFO">Clicking button 'Log in'.</msg>
+<status status="PASS" endtime="20170502 22:40:21.099" starttime="20170502 22:40:19.341"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="Selenium2Library">
+<doc>Waits until element specified with `locator` is visible.</doc>
+<arguments>
+<arg>xpath=//a[text()='Log in']</arg>
+</arguments>
+<status status="PASS" endtime="20170502 22:40:21.216" starttime="20170502 22:40:21.104"></status>
+</kw>
+<kw name="Element Should Contain" library="Selenium2Library">
+<doc>Verifies element identified by `locator` contains text `expected`.</doc>
+<arguments>
+<arg>xpath=//span[@class='login']</arg>
+<arg>You are currently using guest access</arg>
+</arguments>
+<msg timestamp="20170502 22:40:21.224" level="INFO">Verifying element 'xpath=//span[@class='login']' contains text 'You are currently using guest access'.</msg>
+<status status="PASS" endtime="20170502 22:40:21.336" starttime="20170502 22:40:21.223"></status>
+</kw>
+<status status="PASS" endtime="20170502 22:40:21.337" critical="yes" starttime="20170502 22:40:13.914"></status>
+</test>
+<test id="s1-t4" name="ทดสอบล็อคอิน Moodle ด้วย Guest">
+<kw name="Restart Test">
+<kw name="Go To" library="Selenium2Library">
+<doc>Navigates the active browser instance to the provided URL.</doc>
+<arguments>
+<arg>http://www.ic.kmitl.ac.th/index.php</arg>
+</arguments>
+<msg timestamp="20170502 22:40:21.349" level="INFO">Opening url 'http://www.ic.kmitl.ac.th/index.php'</msg>
+<status status="PASS" endtime="20170502 22:40:22.266" starttime="20170502 22:40:21.349"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="Selenium2Library">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>More Info</arg>
+</arguments>
+<status status="PASS" endtime="20170502 22:40:22.357" starttime="20170502 22:40:22.267"></status>
+</kw>
+<kw name="Page Should Contain" library="Selenium2Library">
+<doc>Verifies that current page contains `text`.</doc>
+<arguments>
+<arg>International College</arg>
+</arguments>
+<msg timestamp="20170502 22:40:22.402" level="INFO">Current page contains text 'International College'.</msg>
+<status status="PASS" endtime="20170502 22:40:22.402" starttime="20170502 22:40:22.358"></status>
+</kw>
+<kw name="Page Should Contain" library="Selenium2Library">
+<doc>Verifies that current page contains `text`.</doc>
+<arguments>
+<arg>King Mongkut's Institute of Technology Ladkrabang</arg>
+</arguments>
+<msg timestamp="20170502 22:40:22.433" level="INFO">Current page contains text 'King Mongkut's Institute of Technology Ladkrabang'.</msg>
+<status status="PASS" endtime="20170502 22:40:22.433" starttime="20170502 22:40:22.403"></status>
+</kw>
+<status status="PASS" endtime="20170502 22:40:22.434" starttime="20170502 22:40:21.348"></status>
+</kw>
+<kw name="Open Moodle">
+<kw name="Click Button" library="Selenium2Library">
+<doc>Clicks a button identified by `locator`.</doc>
+<arguments>
+<arg>Student Links</arg>
+</arguments>
+<msg timestamp="20170502 22:40:22.438" level="INFO">Clicking button 'Student Links'.</msg>
+<status status="PASS" endtime="20170502 22:40:22.641" starttime="20170502 22:40:22.437"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="Selenium2Library">
+<doc>Waits until element specified with `locator` is visible.</doc>
+<arguments>
+<arg>xpath=//a[contains(@href, '/moodle/')]</arg>
+</arguments>
+<status status="PASS" endtime="20170502 22:40:22.744" starttime="20170502 22:40:22.642"></status>
+</kw>
+<kw name="Click Link" library="Selenium2Library">
+<doc>Clicks a link identified by locator.</doc>
+<arguments>
+<arg>xpath=//a[contains(@href, '/moodle/')]</arg>
+</arguments>
+<msg timestamp="20170502 22:40:22.745" level="INFO">Clicking link 'xpath=//a[contains(@href, '/moodle/')]'.</msg>
+<status status="PASS" endtime="20170502 22:40:23.936" starttime="20170502 22:40:22.744"></status>
+</kw>
+<status status="PASS" endtime="20170502 22:40:23.937" starttime="20170502 22:40:22.436"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="Selenium2Library">
+<doc>Waits until element specified with `locator` is visible.</doc>
+<arguments>
+<arg>xpath=//span[@class='login']</arg>
+</arguments>
+<status status="PASS" endtime="20170502 22:40:24.086" starttime="20170502 22:40:23.948"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//a[text()='Log in']</arg>
+</arguments>
+<msg timestamp="20170502 22:40:24.091" level="INFO">Clicking element 'xpath=//a[text()='Log in']'.</msg>
+<status status="PASS" endtime="20170502 22:40:24.994" starttime="20170502 22:40:24.090"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="Selenium2Library">
+<doc>Waits until element specified with `locator` is visible.</doc>
+<arguments>
+<arg>id=username</arg>
+</arguments>
+<status status="PASS" endtime="20170502 22:40:25.157" starttime="20170502 22:40:25.003"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>username</arg>
+<arg>guest</arg>
+</arguments>
+<msg timestamp="20170502 22:40:25.161" level="INFO">Typing text 'guest' into text field 'username'</msg>
+<status status="PASS" endtime="20170502 22:40:25.444" starttime="20170502 22:40:25.160"></status>
+</kw>
+<kw name="Input Password" library="Selenium2Library">
+<doc>Types the given password into text field identified by `locator`.</doc>
+<arguments>
+<arg>password</arg>
+<arg>guest</arg>
+</arguments>
+<msg timestamp="20170502 22:40:25.450" level="INFO">Typing password into text field 'password'</msg>
+<status status="PASS" endtime="20170502 22:40:25.707" starttime="20170502 22:40:25.450"></status>
+</kw>
+<kw name="Click Button" library="Selenium2Library">
+<doc>Clicks a button identified by `locator`.</doc>
+<arguments>
+<arg>Log in</arg>
+</arguments>
+<msg timestamp="20170502 22:40:25.710" level="INFO">Clicking button 'Log in'.</msg>
+<status status="PASS" endtime="20170502 22:40:27.602" starttime="20170502 22:40:25.709"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="Selenium2Library">
+<doc>Waits until element specified with `locator` is visible.</doc>
+<arguments>
+<arg>xpath=//a[text()='Log in']</arg>
+</arguments>
+<status status="PASS" endtime="20170502 22:40:27.768" starttime="20170502 22:40:27.618"></status>
+</kw>
+<kw name="Element Should Contain" library="Selenium2Library">
+<doc>Verifies element identified by `locator` contains text `expected`.</doc>
+<arguments>
+<arg>xpath=//span[@class='login']</arg>
+<arg>You are currently using guest access</arg>
+</arguments>
+<msg timestamp="20170502 22:40:27.777" level="INFO">Verifying element 'xpath=//span[@class='login']' contains text 'You are currently using guest access'.</msg>
+<status status="PASS" endtime="20170502 22:40:27.863" starttime="20170502 22:40:27.776"></status>
+</kw>
+<status status="PASS" endtime="20170502 22:40:27.865" critical="yes" starttime="20170502 22:40:21.344"></status>
+</test>
+<test id="s1-t5" name="ทดสอบปุ่ม More Info หน้าแรกปุ่มแรก">
+<kw name="Restart Test">
+<kw name="Go To" library="Selenium2Library">
+<doc>Navigates the active browser instance to the provided URL.</doc>
+<arguments>
+<arg>http://www.ic.kmitl.ac.th/index.php</arg>
+</arguments>
+<msg timestamp="20170502 22:40:27.879" level="INFO">Opening url 'http://www.ic.kmitl.ac.th/index.php'</msg>
+<status status="PASS" endtime="20170502 22:40:28.883" starttime="20170502 22:40:27.878"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="Selenium2Library">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>More Info</arg>
+</arguments>
+<status status="PASS" endtime="20170502 22:40:28.952" starttime="20170502 22:40:28.884"></status>
+</kw>
+<kw name="Page Should Contain" library="Selenium2Library">
+<doc>Verifies that current page contains `text`.</doc>
+<arguments>
+<arg>International College</arg>
+</arguments>
+<msg timestamp="20170502 22:40:29.000" level="INFO">Current page contains text 'International College'.</msg>
+<status status="PASS" endtime="20170502 22:40:29.000" starttime="20170502 22:40:28.953"></status>
+</kw>
+<kw name="Page Should Contain" library="Selenium2Library">
+<doc>Verifies that current page contains `text`.</doc>
+<arguments>
+<arg>King Mongkut's Institute of Technology Ladkrabang</arg>
+</arguments>
+<msg timestamp="20170502 22:40:29.049" level="INFO">Current page contains text 'King Mongkut's Institute of Technology Ladkrabang'.</msg>
+<status status="PASS" endtime="20170502 22:40:29.049" starttime="20170502 22:40:29.001"></status>
+</kw>
+<status status="PASS" endtime="20170502 22:40:29.050" starttime="20170502 22:40:27.877"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="Selenium2Library">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>More Info</arg>
+</arguments>
+<status status="PASS" endtime="20170502 22:40:29.074" starttime="20170502 22:40:29.051"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>dom=document.getElementsByTagName('li')[42]</arg>
+</arguments>
+<msg timestamp="20170502 22:40:29.076" level="INFO">Clicking element 'dom=document.getElementsByTagName('li')[42]'.</msg>
+<status status="PASS" endtime="20170502 22:40:29.198" starttime="20170502 22:40:29.075"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${THREESECOND}</arg>
+</arguments>
+<msg timestamp="20170502 22:40:32.202" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20170502 22:40:32.202" starttime="20170502 22:40:29.202"></status>
+</kw>
+<kw name="Click Link" library="Selenium2Library">
+<doc>Clicks a link identified by locator.</doc>
+<arguments>
+<arg>dom=document.links[49]</arg>
+</arguments>
+<msg timestamp="20170502 22:40:32.206" level="INFO">Clicking link 'dom=document.links[49]'.</msg>
+<status status="PASS" endtime="20170502 22:40:33.169" starttime="20170502 22:40:32.205"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="Selenium2Library">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>SOFTWARE ENGINEERING</arg>
+<arg>${FIVESECOND}</arg>
+</arguments>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<msg timestamp="20170502 22:40:38.545" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170502 22:40:38.554" starttime="20170502 22:40:38.325"></status>
+</kw>
+<msg timestamp="20170502 22:40:38.556" level="FAIL">Text 'SOFTWARE ENGINEERING' did not appear in 5 seconds</msg>
+<status status="FAIL" endtime="20170502 22:40:38.556" starttime="20170502 22:40:33.180"></status>
+</kw>
+<status status="FAIL" endtime="20170502 22:40:38.558" critical="yes" starttime="20170502 22:40:27.872">Text 'SOFTWARE ENGINEERING' did not appear in 5 seconds</status>
+</test>
+<test id="s1-t6" name="ทดสอบปุ่ม More Info หน้าแรกปุ่มสอง">
+<kw name="Restart Test">
+<kw name="Go To" library="Selenium2Library">
+<doc>Navigates the active browser instance to the provided URL.</doc>
+<arguments>
+<arg>http://www.ic.kmitl.ac.th/index.php</arg>
+</arguments>
+<msg timestamp="20170502 22:40:38.573" level="INFO">Opening url 'http://www.ic.kmitl.ac.th/index.php'</msg>
+<status status="PASS" endtime="20170502 22:40:39.545" starttime="20170502 22:40:38.572"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="Selenium2Library">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>More Info</arg>
+</arguments>
+<status status="PASS" endtime="20170502 22:40:39.574" starttime="20170502 22:40:39.546"></status>
+</kw>
+<kw name="Page Should Contain" library="Selenium2Library">
+<doc>Verifies that current page contains `text`.</doc>
+<arguments>
+<arg>International College</arg>
+</arguments>
+<msg timestamp="20170502 22:40:39.613" level="INFO">Current page contains text 'International College'.</msg>
+<status status="PASS" endtime="20170502 22:40:39.613" starttime="20170502 22:40:39.574"></status>
+</kw>
+<kw name="Page Should Contain" library="Selenium2Library">
+<doc>Verifies that current page contains `text`.</doc>
+<arguments>
+<arg>King Mongkut's Institute of Technology Ladkrabang</arg>
+</arguments>
+<msg timestamp="20170502 22:40:39.645" level="INFO">Current page contains text 'King Mongkut's Institute of Technology Ladkrabang'.</msg>
+<status status="PASS" endtime="20170502 22:40:39.645" starttime="20170502 22:40:39.614"></status>
+</kw>
+<status status="PASS" endtime="20170502 22:40:39.646" starttime="20170502 22:40:38.571"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="Selenium2Library">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>More Info</arg>
+</arguments>
+<status status="PASS" endtime="20170502 22:40:39.687" starttime="20170502 22:40:39.649"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>dom=document.getElementsByTagName('li')[43]</arg>
+</arguments>
+<msg timestamp="20170502 22:40:39.690" level="INFO">Clicking element 'dom=document.getElementsByTagName('li')[43]'.</msg>
+<status status="PASS" endtime="20170502 22:40:39.843" starttime="20170502 22:40:39.689"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${THREESECOND}</arg>
+</arguments>
+<msg timestamp="20170502 22:40:42.845" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20170502 22:40:42.846" starttime="20170502 22:40:39.845"></status>
+</kw>
+<kw name="Click Link" library="Selenium2Library">
+<doc>Clicks a link identified by locator.</doc>
+<arguments>
+<arg>dom=document.links[50]</arg>
+</arguments>
+<msg timestamp="20170502 22:40:42.849" level="INFO">Clicking link 'dom=document.links[50]'.</msg>
+<status status="PASS" endtime="20170502 22:40:43.400" starttime="20170502 22:40:42.848"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="Selenium2Library">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>LOGISTICS AND SUPPLY CHAIN MANAGEMENT</arg>
+<arg>${FIVESECOND}</arg>
+</arguments>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<msg timestamp="20170502 22:40:48.857" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-2.png"&gt;&lt;img src="selenium-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170502 22:40:48.862" starttime="20170502 22:40:48.575"></status>
+</kw>
+<msg timestamp="20170502 22:40:48.864" level="FAIL">Text 'LOGISTICS AND SUPPLY CHAIN MANAGEMENT' did not appear in 5 seconds</msg>
+<status status="FAIL" endtime="20170502 22:40:48.864" starttime="20170502 22:40:43.410"></status>
+</kw>
+<status status="FAIL" endtime="20170502 22:40:48.865" critical="yes" starttime="20170502 22:40:38.567">Text 'LOGISTICS AND SUPPLY CHAIN MANAGEMENT' did not appear in 5 seconds</status>
+</test>
+<test id="s1-t7" name="ทดสอบปุ่ม More Info หน้าแรกปุ่มสาม">
+<kw name="Restart Test">
+<kw name="Go To" library="Selenium2Library">
+<doc>Navigates the active browser instance to the provided URL.</doc>
+<arguments>
+<arg>http://www.ic.kmitl.ac.th/index.php</arg>
+</arguments>
+<msg timestamp="20170502 22:40:48.879" level="INFO">Opening url 'http://www.ic.kmitl.ac.th/index.php'</msg>
+<status status="PASS" endtime="20170502 22:40:49.756" starttime="20170502 22:40:48.878"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="Selenium2Library">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>More Info</arg>
+</arguments>
+<status status="PASS" endtime="20170502 22:40:49.793" starttime="20170502 22:40:49.757"></status>
+</kw>
+<kw name="Page Should Contain" library="Selenium2Library">
+<doc>Verifies that current page contains `text`.</doc>
+<arguments>
+<arg>International College</arg>
+</arguments>
+<msg timestamp="20170502 22:40:49.823" level="INFO">Current page contains text 'International College'.</msg>
+<status status="PASS" endtime="20170502 22:40:49.823" starttime="20170502 22:40:49.794"></status>
+</kw>
+<kw name="Page Should Contain" library="Selenium2Library">
+<doc>Verifies that current page contains `text`.</doc>
+<arguments>
+<arg>King Mongkut's Institute of Technology Ladkrabang</arg>
+</arguments>
+<msg timestamp="20170502 22:40:49.854" level="INFO">Current page contains text 'King Mongkut's Institute of Technology Ladkrabang'.</msg>
+<status status="PASS" endtime="20170502 22:40:49.854" starttime="20170502 22:40:49.824"></status>
+</kw>
+<status status="PASS" endtime="20170502 22:40:49.855" starttime="20170502 22:40:48.878"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="Selenium2Library">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>More Info</arg>
+</arguments>
+<status status="PASS" endtime="20170502 22:40:49.880" starttime="20170502 22:40:49.857"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>dom=document.getElementsByTagName('li')[44]</arg>
+</arguments>
+<msg timestamp="20170502 22:40:49.883" level="INFO">Clicking element 'dom=document.getElementsByTagName('li')[44]'.</msg>
+<status status="PASS" endtime="20170502 22:40:50.016" starttime="20170502 22:40:49.882"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${THREESECOND}</arg>
+</arguments>
+<msg timestamp="20170502 22:40:53.021" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20170502 22:40:53.021" starttime="20170502 22:40:50.020"></status>
+</kw>
+<kw name="Click Link" library="Selenium2Library">
+<doc>Clicks a link identified by locator.</doc>
+<arguments>
+<arg>dom=document.links[51]</arg>
+</arguments>
+<msg timestamp="20170502 22:40:53.026" level="INFO">Clicking link 'dom=document.links[51]'.</msg>
+<status status="PASS" endtime="20170502 22:40:53.571" starttime="20170502 22:40:53.025"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="Selenium2Library">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>ENGINEERING AND TECHNOLOGY MANAGEMENT</arg>
+<arg>${FIVESECOND}</arg>
+</arguments>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<msg timestamp="20170502 22:40:58.997" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-3.png"&gt;&lt;img src="selenium-screenshot-3.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170502 22:40:59.003" starttime="20170502 22:40:58.757"></status>
+</kw>
+<msg timestamp="20170502 22:40:59.006" level="FAIL">Text 'ENGINEERING AND TECHNOLOGY MANAGEMENT' did not appear in 5 seconds</msg>
+<status status="FAIL" endtime="20170502 22:40:59.007" starttime="20170502 22:40:53.576"></status>
+</kw>
+<status status="FAIL" endtime="20170502 22:40:59.014" critical="yes" starttime="20170502 22:40:48.873">Text 'ENGINEERING AND TECHNOLOGY MANAGEMENT' did not appear in 5 seconds</status>
+</test>
+<test id="s1-t8" name="ทดสอบปุ่ม More Info หน้าแรกปุ่มสี่">
+<kw name="Restart Test">
+<kw name="Go To" library="Selenium2Library">
+<doc>Navigates the active browser instance to the provided URL.</doc>
+<arguments>
+<arg>http://www.ic.kmitl.ac.th/index.php</arg>
+</arguments>
+<msg timestamp="20170502 22:40:59.032" level="INFO">Opening url 'http://www.ic.kmitl.ac.th/index.php'</msg>
+<status status="PASS" endtime="20170502 22:41:00.109" starttime="20170502 22:40:59.031"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="Selenium2Library">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>More Info</arg>
+</arguments>
+<status status="PASS" endtime="20170502 22:41:00.162" starttime="20170502 22:41:00.110"></status>
+</kw>
+<kw name="Page Should Contain" library="Selenium2Library">
+<doc>Verifies that current page contains `text`.</doc>
+<arguments>
+<arg>International College</arg>
+</arguments>
+<msg timestamp="20170502 22:41:00.230" level="INFO">Current page contains text 'International College'.</msg>
+<status status="PASS" endtime="20170502 22:41:00.231" starttime="20170502 22:41:00.163"></status>
+</kw>
+<kw name="Page Should Contain" library="Selenium2Library">
+<doc>Verifies that current page contains `text`.</doc>
+<arguments>
+<arg>King Mongkut's Institute of Technology Ladkrabang</arg>
+</arguments>
+<msg timestamp="20170502 22:41:00.265" level="INFO">Current page contains text 'King Mongkut's Institute of Technology Ladkrabang'.</msg>
+<status status="PASS" endtime="20170502 22:41:00.265" starttime="20170502 22:41:00.231"></status>
+</kw>
+<status status="PASS" endtime="20170502 22:41:00.266" starttime="20170502 22:40:59.029"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="Selenium2Library">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>More Info</arg>
+</arguments>
+<status status="PASS" endtime="20170502 22:41:00.417" starttime="20170502 22:41:00.268"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>dom=document.getElementsByTagName('li')[45]</arg>
+</arguments>
+<msg timestamp="20170502 22:41:00.429" level="INFO">Clicking element 'dom=document.getElementsByTagName('li')[45]'.</msg>
+<status status="PASS" endtime="20170502 22:41:00.747" starttime="20170502 22:41:00.428"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${THREESECOND}</arg>
+</arguments>
+<msg timestamp="20170502 22:41:03.765" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20170502 22:41:03.766" starttime="20170502 22:41:00.764"></status>
+</kw>
+<kw name="Click Link" library="Selenium2Library">
+<doc>Clicks a link identified by locator.</doc>
+<arguments>
+<arg>dom=document.links[52]</arg>
+</arguments>
+<msg timestamp="20170502 22:41:03.769" level="INFO">Clicking link 'dom=document.links[52]'.</msg>
+<status status="PASS" endtime="20170502 22:41:03.956" starttime="20170502 22:41:03.768"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="Selenium2Library">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>AUTOMOTIVE ENGINEERING</arg>
+<arg>${FIVESECOND}</arg>
+</arguments>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<msg timestamp="20170502 22:41:09.365" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-4.png"&gt;&lt;img src="selenium-screenshot-4.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170502 22:41:09.371" starttime="20170502 22:41:09.134"></status>
+</kw>
+<msg timestamp="20170502 22:41:09.373" level="FAIL">Text 'AUTOMOTIVE ENGINEERING' did not appear in 5 seconds</msg>
+<status status="FAIL" endtime="20170502 22:41:09.373" starttime="20170502 22:41:03.983"></status>
+</kw>
+<status status="FAIL" endtime="20170502 22:41:09.375" critical="yes" starttime="20170502 22:40:59.023">Text 'AUTOMOTIVE ENGINEERING' did not appear in 5 seconds</status>
+</test>
+<test id="s1-t9" name="ทดสอบปุ่ม More Info หน้าแรกปุ่มห้า">
+<kw name="Restart Test">
+<kw name="Go To" library="Selenium2Library">
+<doc>Navigates the active browser instance to the provided URL.</doc>
+<arguments>
+<arg>http://www.ic.kmitl.ac.th/index.php</arg>
+</arguments>
+<msg timestamp="20170502 22:41:09.391" level="INFO">Opening url 'http://www.ic.kmitl.ac.th/index.php'</msg>
+<status status="PASS" endtime="20170502 22:41:10.245" starttime="20170502 22:41:09.390"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="Selenium2Library">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>More Info</arg>
+</arguments>
+<status status="PASS" endtime="20170502 22:41:10.333" starttime="20170502 22:41:10.246"></status>
+</kw>
+<kw name="Page Should Contain" library="Selenium2Library">
+<doc>Verifies that current page contains `text`.</doc>
+<arguments>
+<arg>International College</arg>
+</arguments>
+<msg timestamp="20170502 22:41:10.380" level="INFO">Current page contains text 'International College'.</msg>
+<status status="PASS" endtime="20170502 22:41:10.381" starttime="20170502 22:41:10.333"></status>
+</kw>
+<kw name="Page Should Contain" library="Selenium2Library">
+<doc>Verifies that current page contains `text`.</doc>
+<arguments>
+<arg>King Mongkut's Institute of Technology Ladkrabang</arg>
+</arguments>
+<msg timestamp="20170502 22:41:10.423" level="INFO">Current page contains text 'King Mongkut's Institute of Technology Ladkrabang'.</msg>
+<status status="PASS" endtime="20170502 22:41:10.423" starttime="20170502 22:41:10.381"></status>
+</kw>
+<status status="PASS" endtime="20170502 22:41:10.424" starttime="20170502 22:41:09.389"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="Selenium2Library">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>More Info</arg>
+</arguments>
+<status status="PASS" endtime="20170502 22:41:10.447" starttime="20170502 22:41:10.426"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>dom=document.getElementsByTagName('li')[46]</arg>
+</arguments>
+<msg timestamp="20170502 22:41:10.449" level="INFO">Clicking element 'dom=document.getElementsByTagName('li')[46]'.</msg>
+<status status="PASS" endtime="20170502 22:41:10.614" starttime="20170502 22:41:10.448"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${THREESECOND}</arg>
+</arguments>
+<msg timestamp="20170502 22:41:13.620" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20170502 22:41:13.621" starttime="20170502 22:41:10.618"></status>
+</kw>
+<kw name="Click Link" library="Selenium2Library">
+<doc>Clicks a link identified by locator.</doc>
+<arguments>
+<arg>dom=document.links[53]</arg>
+</arguments>
+<msg timestamp="20170502 22:41:13.626" level="INFO">Clicking link 'dom=document.links[53]'.</msg>
+<status status="PASS" endtime="20170502 22:41:14.143" starttime="20170502 22:41:13.624"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="Selenium2Library">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>COMPUTING IN ENGINEERING SYSTEMS</arg>
+<arg>${FIVESECOND}</arg>
+</arguments>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<msg timestamp="20170502 22:41:19.573" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-5.png"&gt;&lt;img src="selenium-screenshot-5.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170502 22:41:19.580" starttime="20170502 22:41:19.344"></status>
+</kw>
+<msg timestamp="20170502 22:41:19.581" level="FAIL">Text 'COMPUTING IN ENGINEERING SYSTEMS' did not appear in 5 seconds</msg>
+<status status="FAIL" endtime="20170502 22:41:19.581" starttime="20170502 22:41:14.147"></status>
+</kw>
+<status status="FAIL" endtime="20170502 22:41:19.583" critical="yes" starttime="20170502 22:41:09.384">Text 'COMPUTING IN ENGINEERING SYSTEMS' did not appear in 5 seconds</status>
+</test>
+<test id="s1-t10" name="ทดสอบเข้าหน้า apply ของหลักสูตร SOFTWARE ENGINEERING">
+<kw name="Restart Test">
+<kw name="Go To" library="Selenium2Library">
+<doc>Navigates the active browser instance to the provided URL.</doc>
+<arguments>
+<arg>http://www.ic.kmitl.ac.th/index.php</arg>
+</arguments>
+<msg timestamp="20170502 22:41:19.604" level="INFO">Opening url 'http://www.ic.kmitl.ac.th/index.php'</msg>
+<status status="PASS" endtime="20170502 22:41:20.459" starttime="20170502 22:41:19.603"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="Selenium2Library">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>More Info</arg>
+</arguments>
+<status status="PASS" endtime="20170502 22:41:20.498" starttime="20170502 22:41:20.460"></status>
+</kw>
+<kw name="Page Should Contain" library="Selenium2Library">
+<doc>Verifies that current page contains `text`.</doc>
+<arguments>
+<arg>International College</arg>
+</arguments>
+<msg timestamp="20170502 22:41:20.528" level="INFO">Current page contains text 'International College'.</msg>
+<status status="PASS" endtime="20170502 22:41:20.528" starttime="20170502 22:41:20.499"></status>
+</kw>
+<kw name="Page Should Contain" library="Selenium2Library">
+<doc>Verifies that current page contains `text`.</doc>
+<arguments>
+<arg>King Mongkut's Institute of Technology Ladkrabang</arg>
+</arguments>
+<msg timestamp="20170502 22:41:20.561" level="INFO">Current page contains text 'King Mongkut's Institute of Technology Ladkrabang'.</msg>
+<status status="PASS" endtime="20170502 22:41:20.561" starttime="20170502 22:41:20.529"></status>
+</kw>
+<status status="PASS" endtime="20170502 22:41:20.562" starttime="20170502 22:41:19.602"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="Selenium2Library">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>More Info</arg>
+</arguments>
+<status status="PASS" endtime="20170502 22:41:20.584" starttime="20170502 22:41:20.564"></status>
+</kw>
+<kw name="Mouse Over" library="Selenium2Library">
+<doc>Simulates hovering mouse over the element specified by `locator`.</doc>
+<arguments>
+<arg>xpath=//*[text()='Programs']</arg>
+</arguments>
+<msg timestamp="20170502 22:41:20.587" level="INFO">Simulating Mouse Over on element 'xpath=//*[text()='Programs']'</msg>
+<status status="PASS" endtime="20170502 22:41:20.672" starttime="20170502 22:41:20.586"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="Selenium2Library">
+<doc>Waits until element specified with `locator` is visible.</doc>
+<arguments>
+<arg>xpath=//span[text()='Software Engineering']</arg>
+</arguments>
+<status status="PASS" endtime="20170502 22:41:20.799" starttime="20170502 22:41:20.676"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//span[text()='Software Engineering']</arg>
+</arguments>
+<msg timestamp="20170502 22:41:20.808" level="INFO">Clicking element 'xpath=//span[text()='Software Engineering']'.</msg>
+<status status="PASS" endtime="20170502 22:41:22.489" starttime="20170502 22:41:20.808"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="Selenium2Library">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>Software Engineering</arg>
+</arguments>
+<status status="PASS" endtime="20170502 22:41:22.678" starttime="20170502 22:41:22.495"></status>
+</kw>
+<kw name="Click Link" library="Selenium2Library">
+<doc>Clicks a link identified by locator.</doc>
+<arguments>
+<arg>xpath=//*[@id="tab"]/li[4]/a</arg>
+</arguments>
+<msg timestamp="20170502 22:41:22.680" level="INFO">Clicking link 'xpath=//*[@id="tab"]/li[4]/a'.</msg>
+<status status="PASS" endtime="20170502 22:41:22.933" starttime="20170502 22:41:22.680"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${THREESECOND}</arg>
+</arguments>
+<msg timestamp="20170502 22:41:25.939" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20170502 22:41:25.939" starttime="20170502 22:41:22.938"></status>
+</kw>
+<kw name="Mouse Over" library="Selenium2Library">
+<doc>Simulates hovering mouse over the element specified by `locator`.</doc>
+<arguments>
+<arg>xpath=//*[@id="tab-admission"]/p[7]/a</arg>
+</arguments>
+<msg timestamp="20170502 22:41:25.941" level="INFO">Simulating Mouse Over on element 'xpath=//*[@id="tab-admission"]/p[7]/a'</msg>
+<status status="PASS" endtime="20170502 22:41:26.044" starttime="20170502 22:41:25.940"></status>
+</kw>
+<kw name="Mouse Down" library="Selenium2Library">
+<doc>Simulates pressing the left mouse button on the element specified by `locator`.</doc>
+<arguments>
+<arg>xpath=//*[@id="tab-admission"]/p[7]/a</arg>
+</arguments>
+<msg timestamp="20170502 22:41:26.053" level="INFO">Simulating Mouse Down on element 'xpath=//*[@id="tab-admission"]/p[7]/a'</msg>
+<status status="PASS" endtime="20170502 22:41:26.139" starttime="20170502 22:41:26.052"></status>
+</kw>
+<kw name="Mouse Up" library="Selenium2Library">
+<doc>Simulates releasing the left mouse button on the element specified by `locator`.</doc>
+<arguments>
+<arg>xpath=//*[@id="tab-admission"]/p[7]/a</arg>
+</arguments>
+<msg timestamp="20170502 22:41:26.142" level="INFO">Simulating Mouse Up on element 'xpath=//*[@id="tab-admission"]/p[7]/a'</msg>
+<status status="PASS" endtime="20170502 22:41:26.310" starttime="20170502 22:41:26.141"></status>
+</kw>
+<kw name="Select Window" library="Selenium2Library">
+<doc>Selects the window matching locator and return previous window handle.</doc>
+<arguments>
+<arg>url=http://www.ic.kmitl.ac.th/apply/</arg>
+</arguments>
+<status status="PASS" endtime="20170502 22:41:27.579" starttime="20170502 22:41:26.312"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="Selenium2Library">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>Online Application</arg>
+</arguments>
+<status status="PASS" endtime="20170502 22:41:27.651" starttime="20170502 22:41:27.594"></status>
+</kw>
+<kw type="teardown" name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20170502 22:41:31.083" starttime="20170502 22:41:27.657"></status>
+</kw>
+<status status="PASS" endtime="20170502 22:41:31.085" critical="yes" starttime="20170502 22:41:19.597"></status>
+</test>
+<status status="FAIL" endtime="20170502 22:41:31.096" starttime="20170502 22:39:53.509"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="5" pass="5">Critical Tests</stat>
+<stat fail="5" pass="5">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="5" id="s1" name="SVV" pass="5">SVV</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

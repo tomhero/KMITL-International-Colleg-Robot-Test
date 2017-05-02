@@ -1,0 +1,119 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1493739305220" stop="1493739325363">
+  <name>SVV</name>
+  <title>SVV</title>
+  <labels/>
+  <test-cases>
+    <test-case severity="None" start="1493739305224" status="failed" stop="1493739325357">
+      <description>ทดสอบเข้าหน้า apply ของหลักสูตร SOFTWARE ENGINEERING</description>
+      <name>ทดสอบเข้าหน้า apply ของหลักสูตร SOFTWARE ENGINEERING</name>
+      <failure>
+        <message>Keyword 'Selenium2Library.Mouse Up' expected 1 argument, got 0.</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="thread" value="13428"/>
+      </labels>
+      <steps>
+        <step start="1493739305225" status="passed" stop="1493739318538">
+          <name>Start Browser</name>
+          <title>Start Browser</title>
+          <attachments/>
+          <steps>
+            <step start="1493739305227" status="passed" stop="1493739311439">
+              <name>Selenium2Library.Open Browser</name>
+              <title>Selenium2Library.Open Browser</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1493739311440" status="passed" stop="1493739312668">
+              <name>Selenium2Library.Maximize Browser Window</name>
+              <title>Selenium2Library.Maximize Browser Window</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1493739312669" status="passed" stop="1493739318537">
+              <name>Skip Start Page</name>
+              <title>Skip Start Page</title>
+              <attachments/>
+              <steps>
+                <step start="1493739312670" status="passed" stop="1493739318428">
+                  <name>Selenium2Library.Click Element</name>
+                  <title>Selenium2Library.Click Element</title>
+                  <attachments/>
+                  <steps/>
+                </step>
+                <step start="1493739318429" status="passed" stop="1493739318537">
+                  <name>Selenium2Library.Wait Until Element Is Visible</name>
+                  <title>Selenium2Library.Wait Until Element Is Visible</title>
+                  <attachments/>
+                  <steps/>
+                </step>
+              </steps>
+            </step>
+          </steps>
+        </step>
+        <step start="1493739318540" status="passed" stop="1493739318585">
+          <name>Selenium2Library.Wait Until Page Contains</name>
+          <title>Selenium2Library.Wait Until Page Contains</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493739318587" status="passed" stop="1493739318670">
+          <name>Selenium2Library.Mouse Over</name>
+          <title>Selenium2Library.Mouse Over</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493739318676" status="passed" stop="1493739318766">
+          <name>Selenium2Library.Wait Until Element Is Visible</name>
+          <title>Selenium2Library.Wait Until Element Is Visible</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493739318768" status="passed" stop="1493739321786">
+          <name>Selenium2Library.Click Element</name>
+          <title>Selenium2Library.Click Element</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493739321790" status="passed" stop="1493739321910">
+          <name>Selenium2Library.Wait Until Page Contains</name>
+          <title>Selenium2Library.Wait Until Page Contains</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493739321912" status="passed" stop="1493739322159">
+          <name>Selenium2Library.Click Link</name>
+          <title>Selenium2Library.Click Link</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493739322173" status="passed" stop="1493739325174">
+          <name>BuiltIn.Sleep</name>
+          <title>BuiltIn.Sleep</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493739325176" status="passed" stop="1493739325272">
+          <name>Selenium2Library.Mouse Over</name>
+          <title>Selenium2Library.Mouse Over</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493739325277" status="passed" stop="1493739325350">
+          <name>Selenium2Library.Mouse Down</name>
+          <title>Selenium2Library.Mouse Down</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493739325352" status="failed" stop="1493739325352">
+          <name>Selenium2Library.Mouse Up</name>
+          <title>Selenium2Library.Mouse Up</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

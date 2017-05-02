@@ -1,0 +1,804 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1493712421754" stop="1493712498715">
+  <name>SVV</name>
+  <title>SVV</title>
+  <labels/>
+  <test-cases>
+    <test-case severity="None" start="1493712421757" status="passed" stop="1493712435078">
+      <description>ทดสอบหน้ารายชื่ออาจารย์</description>
+      <name>ทดสอบหน้ารายชื่ออาจารย์</name>
+      <attachments/>
+      <labels>
+        <label name="thread" value="32044"/>
+      </labels>
+      <steps>
+        <step start="1493712421757" status="passed" stop="1493712432558">
+          <name>Start Browser</name>
+          <title>Start Browser</title>
+          <attachments/>
+          <steps>
+            <step start="1493712421758" status="passed" stop="1493712427986">
+              <name>Selenium2Library.Open Browser</name>
+              <title>Selenium2Library.Open Browser</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1493712427986" status="passed" stop="1493712429181">
+              <name>Selenium2Library.Maximize Browser Window</name>
+              <title>Selenium2Library.Maximize Browser Window</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1493712429181" status="passed" stop="1493712432557">
+              <name>Skip Start Page</name>
+              <title>Skip Start Page</title>
+              <attachments/>
+              <steps>
+                <step start="1493712429182" status="passed" stop="1493712432492">
+                  <name>Selenium2Library.Click Element</name>
+                  <title>Selenium2Library.Click Element</title>
+                  <attachments/>
+                  <steps/>
+                </step>
+                <step start="1493712432493" status="passed" stop="1493712432557">
+                  <name>Selenium2Library.Wait Until Element Is Visible</name>
+                  <title>Selenium2Library.Wait Until Element Is Visible</title>
+                  <attachments/>
+                  <steps/>
+                </step>
+              </steps>
+            </step>
+          </steps>
+        </step>
+        <step start="1493712432559" status="passed" stop="1493712432628">
+          <name>Selenium2Library.Mouse Over</name>
+          <title>Selenium2Library.Mouse Over</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493712432631" status="passed" stop="1493712432696">
+          <name>Selenium2Library.Wait Until Element Is Visible</name>
+          <title>Selenium2Library.Wait Until Element Is Visible</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493712432699" status="passed" stop="1493712434978">
+          <name>Selenium2Library.Click Element</name>
+          <title>Selenium2Library.Click Element</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493712434980" status="passed" stop="1493712435040">
+          <name>Selenium2Library.Wait Until Element Is Visible</name>
+          <title>Selenium2Library.Wait Until Element Is Visible</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493712435041" status="passed" stop="1493712435075">
+          <name>Selenium2Library.Page Should Contain</name>
+          <title>Selenium2Library.Page Should Contain</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case severity="None" start="1493712435083" status="passed" stop="1493712437634">
+      <description>ทดสอบหน้ารายชื่อเจ้าหน้าที่</description>
+      <name>ทดสอบหน้ารายชื่อเจ้าหน้าที่</name>
+      <attachments/>
+      <labels>
+        <label name="thread" value="32044"/>
+      </labels>
+      <steps>
+        <step start="1493712435083" status="passed" stop="1493712436072">
+          <name>Restart Test</name>
+          <title>Restart Test</title>
+          <attachments/>
+          <steps>
+            <step start="1493712435084" status="passed" stop="1493712435951">
+              <name>Selenium2Library.Go To</name>
+              <title>Selenium2Library.Go To</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1493712435952" status="passed" stop="1493712435991">
+              <name>Selenium2Library.Wait Until Page Contains</name>
+              <title>Selenium2Library.Wait Until Page Contains</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1493712435991" status="passed" stop="1493712436034">
+              <name>Selenium2Library.Page Should Contain</name>
+              <title>Selenium2Library.Page Should Contain</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1493712436035" status="passed" stop="1493712436072">
+              <name>Selenium2Library.Page Should Contain</name>
+              <title>Selenium2Library.Page Should Contain</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1493712436074" status="passed" stop="1493712436121">
+          <name>Selenium2Library.Mouse Over</name>
+          <title>Selenium2Library.Mouse Over</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493712436122" status="passed" stop="1493712436469">
+          <name>Selenium2Library.Wait Until Element Is Visible</name>
+          <title>Selenium2Library.Wait Until Element Is Visible</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493712436470" status="passed" stop="1493712437544">
+          <name>Selenium2Library.Click Element</name>
+          <title>Selenium2Library.Click Element</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493712437545" status="passed" stop="1493712437597">
+          <name>Selenium2Library.Wait Until Element Is Visible</name>
+          <title>Selenium2Library.Wait Until Element Is Visible</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493712437598" status="passed" stop="1493712437632">
+          <name>Selenium2Library.Page Should Contain</name>
+          <title>Selenium2Library.Page Should Contain</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case severity="None" start="1493712437640" status="passed" stop="1493712443916">
+      <description>ทดสอบล็อคอิน Moodle ด้วย Username Password</description>
+      <name>ทดสอบล็อคอิน Moodle ด้วย Username Password</name>
+      <attachments/>
+      <labels>
+        <label name="thread" value="32044"/>
+      </labels>
+      <steps>
+        <step start="1493712437640" status="passed" stop="1493712438283">
+          <name>Restart Test</name>
+          <title>Restart Test</title>
+          <attachments/>
+          <steps>
+            <step start="1493712437641" status="passed" stop="1493712438198">
+              <name>Selenium2Library.Go To</name>
+              <title>Selenium2Library.Go To</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1493712438200" status="passed" stop="1493712438229">
+              <name>Selenium2Library.Wait Until Page Contains</name>
+              <title>Selenium2Library.Wait Until Page Contains</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1493712438230" status="passed" stop="1493712438262">
+              <name>Selenium2Library.Page Should Contain</name>
+              <title>Selenium2Library.Page Should Contain</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1493712438263" status="passed" stop="1493712438282">
+              <name>Selenium2Library.Page Should Contain</name>
+              <title>Selenium2Library.Page Should Contain</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1493712438285" status="passed" stop="1493712441190">
+          <name>Open Moodle</name>
+          <title>Open Moodle</title>
+          <attachments/>
+          <steps>
+            <step start="1493712438286" status="passed" stop="1493712438493">
+              <name>Selenium2Library.Click Button</name>
+              <title>Selenium2Library.Click Button</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1493712438493" status="passed" stop="1493712438569">
+              <name>Selenium2Library.Wait Until Element Is Visible</name>
+              <title>Selenium2Library.Wait Until Element Is Visible</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1493712438569" status="passed" stop="1493712441190">
+              <name>Selenium2Library.Click Link</name>
+              <title>Selenium2Library.Click Link</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1493712441195" status="passed" stop="1493712441263">
+          <name>Selenium2Library.Wait Until Element Is Visible</name>
+          <title>Selenium2Library.Wait Until Element Is Visible</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493712441264" status="passed" stop="1493712441956">
+          <name>Selenium2Library.Click Element</name>
+          <title>Selenium2Library.Click Element</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493712441958" status="passed" stop="1493712442042">
+          <name>Selenium2Library.Wait Until Element Is Visible</name>
+          <title>Selenium2Library.Wait Until Element Is Visible</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493712442044" status="passed" stop="1493712442189">
+          <name>Selenium2Library.Input Text</name>
+          <title>Selenium2Library.Input Text</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493712442190" status="passed" stop="1493712442330">
+          <name>Selenium2Library.Input Password</name>
+          <title>Selenium2Library.Input Password</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493712442331" status="passed" stop="1493712443762">
+          <name>Selenium2Library.Click Button</name>
+          <title>Selenium2Library.Click Button</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493712443769" status="passed" stop="1493712443859">
+          <name>Selenium2Library.Wait Until Element Is Visible</name>
+          <title>Selenium2Library.Wait Until Element Is Visible</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493712443861" status="passed" stop="1493712443912">
+          <name>Selenium2Library.Element Should Contain</name>
+          <title>Selenium2Library.Element Should Contain</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case severity="None" start="1493712443921" status="passed" stop="1493712447971">
+      <description>ทดสอบล็อคอิน Moodle ด้วย Guest</description>
+      <name>ทดสอบล็อคอิน Moodle ด้วย Guest</name>
+      <attachments/>
+      <labels>
+        <label name="thread" value="32044"/>
+      </labels>
+      <steps>
+        <step start="1493712443921" status="passed" stop="1493712444786">
+          <name>Restart Test</name>
+          <title>Restart Test</title>
+          <attachments/>
+          <steps>
+            <step start="1493712443922" status="passed" stop="1493712444640">
+              <name>Selenium2Library.Go To</name>
+              <title>Selenium2Library.Go To</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1493712444641" status="passed" stop="1493712444686">
+              <name>Selenium2Library.Wait Until Page Contains</name>
+              <title>Selenium2Library.Wait Until Page Contains</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1493712444686" status="passed" stop="1493712444730">
+              <name>Selenium2Library.Page Should Contain</name>
+              <title>Selenium2Library.Page Should Contain</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1493712444730" status="passed" stop="1493712444786">
+              <name>Selenium2Library.Page Should Contain</name>
+              <title>Selenium2Library.Page Should Contain</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1493712444788" status="passed" stop="1493712445668">
+          <name>Open Moodle</name>
+          <title>Open Moodle</title>
+          <attachments/>
+          <steps>
+            <step start="1493712444789" status="passed" stop="1493712444946">
+              <name>Selenium2Library.Click Button</name>
+              <title>Selenium2Library.Click Button</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1493712444946" status="passed" stop="1493712445011">
+              <name>Selenium2Library.Wait Until Element Is Visible</name>
+              <title>Selenium2Library.Wait Until Element Is Visible</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1493712445011" status="passed" stop="1493712445668">
+              <name>Selenium2Library.Click Link</name>
+              <title>Selenium2Library.Click Link</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1493712445670" status="passed" stop="1493712445736">
+          <name>Selenium2Library.Wait Until Element Is Visible</name>
+          <title>Selenium2Library.Wait Until Element Is Visible</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493712445738" status="passed" stop="1493712446239">
+          <name>Selenium2Library.Click Element</name>
+          <title>Selenium2Library.Click Element</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493712446241" status="passed" stop="1493712446335">
+          <name>Selenium2Library.Wait Until Element Is Visible</name>
+          <title>Selenium2Library.Wait Until Element Is Visible</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493712446339" status="passed" stop="1493712446481">
+          <name>Selenium2Library.Input Text</name>
+          <title>Selenium2Library.Input Text</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493712446485" status="passed" stop="1493712446620">
+          <name>Selenium2Library.Input Password</name>
+          <title>Selenium2Library.Input Password</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493712446621" status="passed" stop="1493712447817">
+          <name>Selenium2Library.Click Button</name>
+          <title>Selenium2Library.Click Button</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493712447821" status="passed" stop="1493712447919">
+          <name>Selenium2Library.Wait Until Element Is Visible</name>
+          <title>Selenium2Library.Wait Until Element Is Visible</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493712447921" status="passed" stop="1493712447967">
+          <name>Selenium2Library.Element Should Contain</name>
+          <title>Selenium2Library.Element Should Contain</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case severity="None" start="1493712447977" status="failed" stop="1493712457513">
+      <description>ทดสอบปุ่ม More Info หน้าแรกปุ่มแรก</description>
+      <name>ทดสอบปุ่ม More Info หน้าแรกปุ่มแรก</name>
+      <failure>
+        <message>Text 'SOFTWARE ENGINEERING' did not appear in 5 seconds</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="thread" value="32044"/>
+      </labels>
+      <steps>
+        <step start="1493712447978" status="passed" stop="1493712448809">
+          <name>Restart Test</name>
+          <title>Restart Test</title>
+          <attachments/>
+          <steps>
+            <step start="1493712447978" status="passed" stop="1493712448679">
+              <name>Selenium2Library.Go To</name>
+              <title>Selenium2Library.Go To</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1493712448680" status="passed" stop="1493712448719">
+              <name>Selenium2Library.Wait Until Page Contains</name>
+              <title>Selenium2Library.Wait Until Page Contains</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1493712448719" status="passed" stop="1493712448772">
+              <name>Selenium2Library.Page Should Contain</name>
+              <title>Selenium2Library.Page Should Contain</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1493712448773" status="passed" stop="1493712448809">
+              <name>Selenium2Library.Page Should Contain</name>
+              <title>Selenium2Library.Page Should Contain</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1493712448810" status="passed" stop="1493712448825">
+          <name>Selenium2Library.Wait Until Page Contains</name>
+          <title>Selenium2Library.Wait Until Page Contains</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493712448826" status="passed" stop="1493712448916">
+          <name>Selenium2Library.Click Element</name>
+          <title>Selenium2Library.Click Element</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493712448918" status="passed" stop="1493712451918">
+          <name>BuiltIn.Sleep</name>
+          <title>BuiltIn.Sleep</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493712451919" status="passed" stop="1493712452330">
+          <name>Selenium2Library.Click Link</name>
+          <title>Selenium2Library.Click Link</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493712452334" status="failed" stop="1493712457510">
+          <name>Selenium2Library.Wait Until Page Contains</name>
+          <title>Selenium2Library.Wait Until Page Contains</title>
+          <attachments/>
+          <steps>
+            <step start="1493712457363" status="passed" stop="1493712457508">
+              <name>Selenium2Library.Capture Page Screenshot</name>
+              <title>Selenium2Library.Capture Page Screenshot</title>
+              <attachments>
+                <attachment source="d8582341-6c3c-4591-93c3-12193682b2a2-attachment.png" title="selenium-screenshot-1.png" type="AttachmentType.PNG"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+    <test-case severity="None" start="1493712457519" status="failed" stop="1493712467025">
+      <description>ทดสอบปุ่ม More Info หน้าแรกปุ่มสอง</description>
+      <name>ทดสอบปุ่ม More Info หน้าแรกปุ่มสอง</name>
+      <failure>
+        <message>Text 'SOFTWARE ENGINEERING' did not appear in 5 seconds</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="thread" value="32044"/>
+      </labels>
+      <steps>
+        <step start="1493712457520" status="passed" stop="1493712458248">
+          <name>Restart Test</name>
+          <title>Restart Test</title>
+          <attachments/>
+          <steps>
+            <step start="1493712457520" status="passed" stop="1493712458176">
+              <name>Selenium2Library.Go To</name>
+              <title>Selenium2Library.Go To</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1493712458177" status="passed" stop="1493712458195">
+              <name>Selenium2Library.Wait Until Page Contains</name>
+              <title>Selenium2Library.Wait Until Page Contains</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1493712458195" status="passed" stop="1493712458227">
+              <name>Selenium2Library.Page Should Contain</name>
+              <title>Selenium2Library.Page Should Contain</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1493712458227" status="passed" stop="1493712458247">
+              <name>Selenium2Library.Page Should Contain</name>
+              <title>Selenium2Library.Page Should Contain</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1493712458249" status="passed" stop="1493712458264">
+          <name>Selenium2Library.Wait Until Page Contains</name>
+          <title>Selenium2Library.Wait Until Page Contains</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493712458265" status="passed" stop="1493712458409">
+          <name>Selenium2Library.Click Element</name>
+          <title>Selenium2Library.Click Element</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493712458413" status="passed" stop="1493712461415">
+          <name>BuiltIn.Sleep</name>
+          <title>BuiltIn.Sleep</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493712461417" status="passed" stop="1493712461759">
+          <name>Selenium2Library.Click Link</name>
+          <title>Selenium2Library.Click Link</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493712461761" status="failed" stop="1493712467022">
+          <name>Selenium2Library.Wait Until Page Contains</name>
+          <title>Selenium2Library.Wait Until Page Contains</title>
+          <attachments/>
+          <steps>
+            <step start="1493712466884" status="passed" stop="1493712467020">
+              <name>Selenium2Library.Capture Page Screenshot</name>
+              <title>Selenium2Library.Capture Page Screenshot</title>
+              <attachments>
+                <attachment source="4cd19f4e-56b4-4596-8b7f-c46a8a1565d1-attachment.png" title="selenium-screenshot-2.png" type="AttachmentType.PNG"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+    <test-case severity="None" start="1493712467030" status="failed" stop="1493712476411">
+      <description>ทดสอบปุ่ม More Info หน้าแรกปุ่มสาม</description>
+      <name>ทดสอบปุ่ม More Info หน้าแรกปุ่มสาม</name>
+      <failure>
+        <message>Text 'SOFTWARE ENGINEERING' did not appear in 5 seconds</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="thread" value="32044"/>
+      </labels>
+      <steps>
+        <step start="1493712467030" status="passed" stop="1493712467683">
+          <name>Restart Test</name>
+          <title>Restart Test</title>
+          <attachments/>
+          <steps>
+            <step start="1493712467031" status="passed" stop="1493712467609">
+              <name>Selenium2Library.Go To</name>
+              <title>Selenium2Library.Go To</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1493712467610" status="passed" stop="1493712467630">
+              <name>Selenium2Library.Wait Until Page Contains</name>
+              <title>Selenium2Library.Wait Until Page Contains</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1493712467630" status="passed" stop="1493712467657">
+              <name>Selenium2Library.Page Should Contain</name>
+              <title>Selenium2Library.Page Should Contain</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1493712467657" status="passed" stop="1493712467682">
+              <name>Selenium2Library.Page Should Contain</name>
+              <title>Selenium2Library.Page Should Contain</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1493712467684" status="passed" stop="1493712467697">
+          <name>Selenium2Library.Wait Until Page Contains</name>
+          <title>Selenium2Library.Wait Until Page Contains</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493712467698" status="passed" stop="1493712467786">
+          <name>Selenium2Library.Click Element</name>
+          <title>Selenium2Library.Click Element</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493712467794" status="passed" stop="1493712470796">
+          <name>BuiltIn.Sleep</name>
+          <title>BuiltIn.Sleep</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493712470798" status="passed" stop="1493712471112">
+          <name>Selenium2Library.Click Link</name>
+          <title>Selenium2Library.Click Link</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493712471114" status="failed" stop="1493712476408">
+          <name>Selenium2Library.Wait Until Page Contains</name>
+          <title>Selenium2Library.Wait Until Page Contains</title>
+          <attachments/>
+          <steps>
+            <step start="1493712476265" status="passed" stop="1493712476406">
+              <name>Selenium2Library.Capture Page Screenshot</name>
+              <title>Selenium2Library.Capture Page Screenshot</title>
+              <attachments>
+                <attachment source="fd24f8f7-5352-489b-b745-699a118d8885-attachment.png" title="selenium-screenshot-3.png" type="AttachmentType.PNG"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+    <test-case severity="None" start="1493712476417" status="failed" stop="1493712486138">
+      <description>ทดสอบปุ่ม More Info หน้าแรกปุ่มสี่</description>
+      <name>ทดสอบปุ่ม More Info หน้าแรกปุ่มสี่</name>
+      <failure>
+        <message>Text 'SOFTWARE ENGINEERING' did not appear in 5 seconds</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="thread" value="32044"/>
+      </labels>
+      <steps>
+        <step start="1493712476417" status="passed" stop="1493712477242">
+          <name>Restart Test</name>
+          <title>Restart Test</title>
+          <attachments/>
+          <steps>
+            <step start="1493712476418" status="passed" stop="1493712477120">
+              <name>Selenium2Library.Go To</name>
+              <title>Selenium2Library.Go To</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1493712477121" status="passed" stop="1493712477161">
+              <name>Selenium2Library.Wait Until Page Contains</name>
+              <title>Selenium2Library.Wait Until Page Contains</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1493712477161" status="passed" stop="1493712477202">
+              <name>Selenium2Library.Page Should Contain</name>
+              <title>Selenium2Library.Page Should Contain</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1493712477203" status="passed" stop="1493712477242">
+              <name>Selenium2Library.Page Should Contain</name>
+              <title>Selenium2Library.Page Should Contain</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1493712477245" status="passed" stop="1493712477262">
+          <name>Selenium2Library.Wait Until Page Contains</name>
+          <title>Selenium2Library.Wait Until Page Contains</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493712477265" status="passed" stop="1493712477540">
+          <name>Selenium2Library.Click Element</name>
+          <title>Selenium2Library.Click Element</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493712477547" status="passed" stop="1493712480549">
+          <name>BuiltIn.Sleep</name>
+          <title>BuiltIn.Sleep</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493712480551" status="passed" stop="1493712480879">
+          <name>Selenium2Library.Click Link</name>
+          <title>Selenium2Library.Click Link</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493712480886" status="failed" stop="1493712486135">
+          <name>Selenium2Library.Wait Until Page Contains</name>
+          <title>Selenium2Library.Wait Until Page Contains</title>
+          <attachments/>
+          <steps>
+            <step start="1493712485984" status="passed" stop="1493712486133">
+              <name>Selenium2Library.Capture Page Screenshot</name>
+              <title>Selenium2Library.Capture Page Screenshot</title>
+              <attachments>
+                <attachment source="cfe749f7-d1a5-4a92-90ff-be8375b2fb0b-attachment.png" title="selenium-screenshot-4.png" type="AttachmentType.PNG"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+    <test-case severity="None" start="1493712486144" status="failed" stop="1493712498691">
+      <description>ทดสอบปุ่ม More Info หน้าแรกปุ่มห้า</description>
+      <name>ทดสอบปุ่ม More Info หน้าแรกปุ่มห้า</name>
+      <failure>
+        <message>Text 'SOFTWARE ENGINEERING' did not appear in 5 seconds</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="thread" value="32044"/>
+      </labels>
+      <steps>
+        <step start="1493712486144" status="passed" stop="1493712486794">
+          <name>Restart Test</name>
+          <title>Restart Test</title>
+          <attachments/>
+          <steps>
+            <step start="1493712486145" status="passed" stop="1493712486721">
+              <name>Selenium2Library.Go To</name>
+              <title>Selenium2Library.Go To</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1493712486722" status="passed" stop="1493712486745">
+              <name>Selenium2Library.Wait Until Page Contains</name>
+              <title>Selenium2Library.Wait Until Page Contains</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1493712486746" status="passed" stop="1493712486774">
+              <name>Selenium2Library.Page Should Contain</name>
+              <title>Selenium2Library.Page Should Contain</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1493712486774" status="passed" stop="1493712486794">
+              <name>Selenium2Library.Page Should Contain</name>
+              <title>Selenium2Library.Page Should Contain</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1493712486795" status="passed" stop="1493712486810">
+          <name>Selenium2Library.Wait Until Page Contains</name>
+          <title>Selenium2Library.Wait Until Page Contains</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493712486811" status="passed" stop="1493712486920">
+          <name>Selenium2Library.Click Element</name>
+          <title>Selenium2Library.Click Element</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493712486923" status="passed" stop="1493712489924">
+          <name>BuiltIn.Sleep</name>
+          <title>BuiltIn.Sleep</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493712489927" status="passed" stop="1493712490260">
+          <name>Selenium2Library.Click Link</name>
+          <title>Selenium2Library.Click Link</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1493712490262" status="failed" stop="1493712495472">
+          <name>Selenium2Library.Wait Until Page Contains</name>
+          <title>Selenium2Library.Wait Until Page Contains</title>
+          <attachments/>
+          <steps>
+            <step start="1493712495328" status="passed" stop="1493712495470">
+              <name>Selenium2Library.Capture Page Screenshot</name>
+              <title>Selenium2Library.Capture Page Screenshot</title>
+              <attachments>
+                <attachment source="4534d916-c698-4cfe-99e7-5d6d40fd2265-attachment.png" title="selenium-screenshot-5.png" type="AttachmentType.PNG"/>
+              </attachments>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
